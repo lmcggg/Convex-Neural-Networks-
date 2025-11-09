@@ -65,16 +65,7 @@ This will:
 4. Report 1-step MSE and 50-step rollout MSE
 5. Generate visualization plots automatically
 
-### Generated Output Files
 
-The demo script generates several visualization files:
-- `results_*_delay.png` - Predictions on delay system
-- `results_*_narx.png` - Predictions on NARX system
-- `training_*_delay.png` - Training history for delay system
-- `training_*_narx.png` - Training history for NARX system
-- `comparison_delay.png` - Model comparison on delay system
-- `comparison_narx.png` - Model comparison on NARX system
-- `convexity_*.png` - Convexity verification plots (if generated separately)
 
 ## Project Structure
 
@@ -85,7 +76,6 @@ The demo script generates several visualization files:
 ├── train_utils.py           # Training and evaluation utilities
 ├── visualize.py             # Visualization utilities
 ├── demo.py                  # Demonstration script
-├── test_visualization.py    # Visualization testing
 ├── requirements.txt         # Dependencies
 └── README.md               # This file
 ```
@@ -136,4 +126,5 @@ Based on specifications from:
 ## License
 
 MIT
+
 
